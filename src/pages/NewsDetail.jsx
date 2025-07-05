@@ -51,14 +51,14 @@ const NewsDetail = () => {
   const news = newsData.find((item) => item.id === parseInt(id));
 
   if (!news) {
-    return <DetailContainer>News not found</DetailContainer>;
+    return <DetailContainer>Noticia no encontrada</DetailContainer>;
   }
 
   return (
     <DetailContainer>
       <h1>{news.title}</h1>
       <p>{news.fullContent}</p>
-      <BackButton to="/">Back to Home</BackButton>
+      <BackButton to="/">Volver al Inicio</BackButton>
     </DetailContainer>
   );
 };
