@@ -2,7 +2,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
-import { newsData } from './Home'; // Import newsData from Home.jsx
+import { newsData } from '../data/newsData'; // Import newsData from Home.jsx
 
 import { Link } from 'react-router-dom';
 

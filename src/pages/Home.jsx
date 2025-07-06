@@ -163,27 +163,9 @@ const Home = () => {
           <li><strong>Falta de Transparencia:</strong> Si bien las industrias afirman tratar sus aguas residuales, hay una falta de datos públicos para verificar estas afirmaciones, lo que genera escepticismo público.</li>
           <li><strong>Consumo Industrial:</strong> Los sectores industrial y hotelero representan el 9% del consumo de agua en el área metropolitana de Mérida, pero la cifra real para toda la península podría ser mucho mayor.</li>
         </ul>
-        <p>Aquí hay algunas fuentes para lectura adicional:</p>
-        <ul>
-          <li><a href="https://www.grupomodelo.com/" target="_blank" rel="noopener noreferrer">Grupo Modelo</a></li>
-          <li><a href="https://www.lajornadamaya.mx/" target="_blank" rel="noopener noreferrer">La Jornada Maya</a></li>
-          <li><a href="https://piedepagina.mx/" target="_blank" rel="noopener noreferrer">Pie de Página</a></li>
-          <li><a href="https://notirasa.com/" target="_blank" rel="noopener noreferrer">NotiRASA</a></li>
-          <li><a href="https://contralinea.com.mx/" target="_blank" rel="noopener noreferrer">Contralínea</a></li>
-          <li><a href="https://www.gob.mx/conagua" target="_blank" rel="noopener noreferrer">Gobierno de México - CONAGUA</a></li>
-        </ul>
+        
       </CrisisDescription>
-      <h1>Noticias Recientes</h1>
-      <NewsList>
-        {newsData.map((news) => (
-          <NewsItem key={news.id}>
-            <Link to={`/news/${news.id}`}>
-              <NewsTitle>{news.title}</NewsTitle>
-              <p>{news.summary}</p>
-            </Link>
-          </NewsItem>
-        ))}
-      </NewsList>
+      
     </HomeContainer>
   );
 };
