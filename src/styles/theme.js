@@ -1,13 +1,14 @@
 
 export const theme = {
   colors: {
-    primary: '#007bff',
-    secondary: '#6c757d',
-    background: '#f8f9fa',
-    text: '#212529',
+    primary: '#00796b',
+    secondary: '#004d40',
+    background: '#e0f7fa',
+    text: '#37474f',
     white: '#ffffff',
   },
   fonts: {
-    main: 'Arial, sans-serif',
+    main: 'Montserrat, sans-serif',
+    secondary: 'Roboto, sans-serif',
   },
 };
