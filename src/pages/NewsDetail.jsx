@@ -58,7 +58,7 @@ const NewsDetail = () => {
     <DetailContainer>
       <h1>{news.title}</h1>
       <p>{news.fullContent}</p>
-      <BackButton to="/">Volver al Inicio</BackButton>
+      <BackButton to="/news">Volver a Noticias</BackButton>
     </DetailContainer>
   );
 };
