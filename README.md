@@ -8,30 +8,34 @@ This application was developed using **vibe coding with Gemini CLI**. The entire
 
 ## ✨ Features
 
-*   **Crisis Overview**: Detailed information about the water crisis in Mérida, Yucatán.
-*   **News Section**: Displays relevant news articles with summaries.
-*   **Pagination**: Navigate through news articles, showing 4 articles per page.
-*   **News Detail View**: Click on a news article to view its full content.
-*   **Responsive Design**: Styled components ensure a professional and adaptable user interface.
-*   **Multilingual Content**: All content is available in Spanish.
+- **Crisis Overview**: Detailed information about the water crisis in Mérida, Yucatán.
+- **News Section**: Displays relevant news articles with summaries.
+- **Pagination**: Navigate through news articles, showing 4 articles per page.
+- **News Detail View**: Click on a news article to view its full content.
+- **Responsive Design**: Styled components ensure a professional and adaptable user interface.
+- **Multilingual Content**: All content is available in Spanish.
 
 ## 🚀 How to Run
 
 To get this project up and running on your local machine, follow these steps:
 
 1.  **Clone the repository** (if you haven't already):
+
     ```bash
     git clone <YOUR_REPOSITORY_URL>
     cd waterYucatan
     ```
-    *(Replace `<YOUR_REPOSITORY_URL>` with the actual URL of your GitHub repository.)*
+
+    _(Replace `<YOUR_REPOSITORY_URL>` with the actual URL of your GitHub repository.)_
 
 2.  **Install dependencies**:
+
     ```bash
     npm install
     ```
 
 3.  **Start the development server**:
+
     ```bash
     npm run dev
     ```
@@ -40,11 +44,13 @@ To get this project up and running on your local machine, follow these steps:
 
 ## 🛠️ Technologies Used
 
-*   **React**: A JavaScript library for building user interfaces.
-*   **Vite**: A fast build tool for modern web projects.
-*   **Styled Components**: For writing CSS in JavaScript.
-*   **React Router DOM**: For declarative routing in React applications.
-*   **Google Fonts**: For professional typography.
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool for modern web projects.
+- **Styled Components**: For writing CSS in JavaScript.
+- **React Router DOM**: For declarative routing in React applications.
+- **Google Fonts**: For professional typography.
+
+##deploy \*https://wateryucatan.netlify.app/
 
 ## 📄 License
 
