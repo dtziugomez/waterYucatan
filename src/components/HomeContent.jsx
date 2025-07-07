@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { homeData } from '../data/homeData';
+import WaterIcon from '../assets/raindrop-ai.jpeg';
 
 const fadeIn = keyframes`
   from {
@@ -15,7 +16,7 @@ const fadeIn = keyframes`
 
 const HomeContainer = styled.div`
   background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
-  padding: 4rem 2rem;
+  padding: 0rem 2rem;
   animation: ${fadeIn} 1s ease-in-out;
 `;
 
@@ -28,6 +29,10 @@ const Header = styled.header`
     font-size: 3.5rem;
     color: #004d40;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
 
   p {
@@ -90,8 +95,7 @@ const HomeContent = () => {
   return (
     <HomeContainer>
       <Header>
-        
-
+        <h1><img src={WaterIcon} alt="Raindrop Icon" style={{ width: '100px', height: '100px' }} />{homeData.title}</h1>
         <p>{homeData.description}</p>
       </Header>
       <SectionContainer>
